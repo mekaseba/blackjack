@@ -28,8 +28,10 @@ function render() {
     msgEl.innerText = message
 }
 
-function draw() {
-    let newCard = 2
-    sum += newCard
+function newCard() {
+    let card = 6
+    sum += card
+    cards.push(card)
+    console.log(cards)
     render()
 }

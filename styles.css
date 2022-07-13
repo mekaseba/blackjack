@@ -1,0 +1,41 @@
+html {
+    height: 100%;
+}
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(casino.jpg);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px;
+}
+h1 {
+    color: goldenrod;
+    font-size: 66px;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+.play {
+    font-size: 33px;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+}
+#msg-el {
+    font-style: italic;
+}
+button {
+    align-items: center;
+    font-size: 33px;
+    text-shadow: 0 0 1.5px black;
+    color: #016f32;
+    width: 300px;
+    background: goldenrod;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+    

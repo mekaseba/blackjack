@@ -1,7 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="index.js"></script>
+        <link rel="stylesheet" href="styles.css">
     </head>
-    <body></body>        
+    <body>
+        <h1>Blackjack</h1>
+        <div class="play">
+            <p id="msg-el">Wanna Play a Round?</p>
+            <p id="card-el">Cards:</p>
+            <p id="sum-el">Sum:</p>
+        </div>
+        <button id="start" onclick="start()">START GAME</button><br>
+        <button id="draw" onclick="draw()">NEW CARD</button>
+        <script src="index.js"></script>
+    </body>        
 </html>

@@ -14,8 +14,11 @@ function start() {
 }
 
 function render() {
+    cardEl.innerText = "Cards: " 
+    for (let i = 0; i < cards.length; i++) {
+        cardEl.innerText += cards[i] + ", "
+    }
     sumEl.innerText = "Sum: " + sum
-    cardEl.innerText = "Cards: " + cards[0] + " + " + cards[1]
     if (sum <= 20) {
         message = "Do you wanna draw a new card?"
     } else if (sum === 21) {

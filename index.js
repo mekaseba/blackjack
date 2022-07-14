@@ -17,10 +17,8 @@ function start() {
 }
 
 function render() {
-    cardEl.innerText = "Cards: " 
     for (let i = 0; i < cards.length; i++) {
-        cardEl.innerText += cards[i] 
-        cardEl.innerText = cards.join(" ")
+        cardEl.innerText = "Cards: "+ cards.join(" ")
     }
     sumEl.innerText = "Sum: " + sum
     if (sum <= 20) {

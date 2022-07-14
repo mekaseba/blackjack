@@ -21,6 +21,11 @@ h1 {
     text-shadow: 1px 1px 1px black;
     color: white;
 }
+#player-el {
+    font-size: 33px;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+}
 #msg-el {
     font-style: italic;
 }
